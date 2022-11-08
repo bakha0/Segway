@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li, a, p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    min-width: 320px;
+}
+/* 
+.shop__text{
+    display: flex;
+    flex-direction: column;
+} */
+
+.shop__name{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.shop__buttons{
+    display: flex;
+    margin-top: 100px;
+}
+
+.shop__button-1, .shop__button-2{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #009EFF;
+    background: #fff;
+    color: #009EFF;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.shop__button-1:hover, .shop__button-2:hover{
+    color: #fff;
+    background: #009EFF;
+}
+
+.shop__amount{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #009EFF;
+    margin: 0 20px;
+    color: #323941;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.shop__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #009EFF;
+    border: 3px solid #009EFF;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.shop__link:hover{
+    color: #fff;
+    background: #009EFF;
+}
